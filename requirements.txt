@@ -13,7 +13,6 @@ cymem==2.0.3
 decorator==4.4.2
 defusedxml==0.6.0
 Deprecated==1.2.8
-en-core-web-lg==2.2.5
 entrypoints==0.3
 Flask==1.1.2
 Flask-RESTful==0.3.8
