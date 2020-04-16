@@ -3,6 +3,10 @@ from flask_restful import reqparse, abort, Api, Resource
 import pickle
 import pandas, json
 from pyscripts import TextPreprocessor
+import os
+
+os.system("python -m spacy download en_core_web_lg")
+os.system("python -m textblob.download_corpora")
 
 app = Flask(__name__)
 api = Api(app)
